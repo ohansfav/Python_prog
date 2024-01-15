@@ -4,6 +4,7 @@ loop_count = 0
 print("INSTRUCTIONS: Note, every questions marks varies and each questions answered wrongly atttracts negative score.you can also decide to skip any question at anytime\n")
 print("NOTE: YOU CAN ONLY ANSWER ONLY 3 TIMES")
 
+#function for user questions 
 def user():
 		
 		user_choice= input("\nchoose a question from set of questions ranging from 1  - 10 : ".upper())
@@ -39,7 +40,7 @@ def user():
 				else:
 					break
 	"""
-
+#function for question 1
 def Question1():
 	global SCORE
 	Q1 = input("How many continent are there in the world? : ".lower())
@@ -52,7 +53,8 @@ def Question1():
 		SCORE -= 2
 		#user()
 		#print('your score is ', SCORE)
-		
+
+#function for question 2
 def Question2():
 	global SCORE
 	Q2 = input("what's the longest river in the world? :".lower())
@@ -101,7 +103,7 @@ def Question10():
 	
 	
 	
-	
+#this would make the program only 3 question and end	
 for loop_count in range(1,4):
 	
 	user()
