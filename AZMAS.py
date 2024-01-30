@@ -4,7 +4,7 @@ loop_count = 0
 print("INSTRUCTIONS: Note, every questions marks varies and each questions answered wrongly atttracts negative score.you can also decide to skip any question at anytime\n")
 print("NOTE: YOU CAN ONLY ANSWER ONLY 3 TIMES")
 
-#function for user questions 
+#function for question 
 def user():
 		
 		user_choice= input("\nchoose a question from set of questions ranging from 1  - 10 : ".upper())
