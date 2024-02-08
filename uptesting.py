@@ -4,7 +4,7 @@ Question_with_answer = [["How many contient does the world contain init?", ["7",
 User_Answered =[[],[]]
 
 
-
+//for ask question 
 def ask_question(question):
 	answer = input(f"{question[0].upper()}: ").lower().strip()
 	return answer in question[1]
