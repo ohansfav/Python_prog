@@ -1,4 +1,5 @@
 print("\tWelcome to the python self assement unit\n".upper())
+#for score 
 SCORE = 0
 loop_count = 0
 print("INSTRUCTIONS: Note, every questions marks varies and each questions answered wrongly atttracts negative score.you can also decide to skip any question at anytime\n")
